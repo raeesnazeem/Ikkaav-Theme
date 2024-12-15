@@ -1,0 +1,1 @@
+[15-Dec-2024 09:02:50 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-includes/class-wpdb.php on line 1982
