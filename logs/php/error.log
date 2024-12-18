@@ -2,3 +2,4 @@
 [15-Dec-2024 10:29:31 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/functions.php on line 15
 [15-Dec-2024 10:29:31 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/functions.php on line 15
 [16-Dec-2024 17:31:33 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-includes/class-wpdb.php on line 1982
+[17-Dec-2024 18:28:51 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-includes/class-wpdb.php on line 1982
