@@ -34,6 +34,7 @@ if(function_exists('wp_body_open')){
     </header>
 
     <div id="content" class="site-content">
+    <div id="content" class="site-content">
 
 
 
