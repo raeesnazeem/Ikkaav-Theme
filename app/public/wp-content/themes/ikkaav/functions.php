@@ -7,6 +7,13 @@
  *
  */
 
+if ( ! defined( 'IKKAAV_DIR_PATH' ) ) {
+    define( 'IKKAAV_DIR_PATH', untrailingslashit( get_template_directory() ) );
+}
+
+
+require_once IKKAAV_DIR_PATH . '/includes/helpers/autoloader.php';
+
 function ikkaav_enqueue_scripts(){
 
     //Register Styles

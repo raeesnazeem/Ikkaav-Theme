@@ -86,7 +86,7 @@ function autoloader( $resource = '' ) {
     $is_valid_file = validate_file( $resource_path );
 
     if ( ! empty( $resource_path ) && file_exists( $resource_path ) && ( 0 === $is_valid_file || 2 === $is_valid_file ) ) {
-        // We already making sure that file is exists and valid.
+        // We are already making sure that file is exists and valid.
         require_once( $resource_path ); // phpcs:ignore
     }
 
@@ -96,4 +96,6 @@ function autoloader( $resource = '' ) {
  * This autoloader function accepts the argument - (a callback function which returns the route to the files of classes and traits).
  *
  */
-spl_autoload_register( '\IKKAAV_THEME\includes\helpers\autoloader' );
+//spl_autoload_register( 'IKKAAV_THEME\includes\helpers\autoloader' );
+
+spl_autoload_register([__NAMESPACE__, 'autoloader']);
