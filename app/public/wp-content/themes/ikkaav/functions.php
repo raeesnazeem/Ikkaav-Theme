@@ -16,7 +16,7 @@ require_once IKKAAV_DIR_PATH . '/includes/helpers/autoloader.php';
 
 function ikkaav_enqueue_scripts(){
 
-    //Register Styles
+    //Register Styles to enqueue it later
     wp_register_style('styles-css', get_stylesheet_uri(), [], filemtime(get_template_directory() . '/style.css'), 'all');
     wp_register_style('bootstrap-css', get_template_directory_uri() . '/assets/src/library/css/bootstrap.min.css', [], false, 'all');
 
