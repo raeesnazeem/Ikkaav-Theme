@@ -14,9 +14,11 @@ if ( ! defined( 'IKKAAV_DIR_PATH' ) ) {
 
 require_once IKKAAV_DIR_PATH . '/includes/helpers/autoloader.php';
 
+\IKKAAV_THEME\includes\IKKAAV_THEME::get_instance();
+
 function ikkaav_enqueue_scripts(){
 
-    //Register Styles to enqueue it later
+    //Register Styles to enqueue it
     wp_register_style('styles-css', get_stylesheet_uri(), [], filemtime(get_template_directory() . '/style.css'), 'all');
     wp_register_style('bootstrap-css', get_template_directory_uri() . '/assets/src/library/css/bootstrap.min.css', [], false, 'all');
 

@@ -24,7 +24,7 @@ namespace IKKAAV_THEME\includes\helpers;
 function autoloader( $resource = '' ) {
 
     $resource_path  = false;
-    $namespace_root = 'IKKAAV_THEME\\';
+    $namespace_root = 'IKKAAV_THEME\\';  
     $resource       = trim( $resource, '\\' );
 
     if ( empty( $resource ) || strpos( $resource, '\\' ) === false || strpos( $resource, $namespace_root ) !== 0 ) {
