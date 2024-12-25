@@ -305,3 +305,26 @@ Stack trace:
 [25-Dec-2024 15:10:37 UTC] PHP Parse error:  syntax error, unexpected token "}" in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/includes/classes/class-ikkaav-theme.php on line 56
 [25-Dec-2024 15:16:40 UTC] PHP Parse error:  syntax error, unexpected token "}", expecting "," or ";" in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/includes/classes/class-ikkaav-theme.php on line 75
 [25-Dec-2024 15:17:05 UTC] PHP Parse error:  syntax error, unexpected token "}", expecting "," or ";" in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/includes/classes/class-ikkaav-theme.php on line 75
+[25-Dec-2024 16:32:59 UTC] PHP Fatal error:  Uncaught Error: Class "IKKAAV_THEME\includes\classes\class" not found in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/template-parts/header/nav.php:60
+Stack trace:
+#0 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-includes/template.php(812): require()
+#1 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-includes/template.php(745): load_template('/Users/raeesnaz...', false, Array)
+#2 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-includes/general-template.php(206): locate_template(Array, true, false, Array)
+#3 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/header.php(33): get_template_part('template-parts/...')
+#4 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-includes/template.php(810): require_once('/Users/raeesnaz...')
+#5 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-includes/template.php(745): load_template('/Users/raeesnaz...', true, Array)
+#6 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#7 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/index.php(10): get_header()
+#8 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-includes/template-loader.php(106): include('/Users/raeesnaz...')
+#9 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-blog-header.php(19): require_once('/Users/raeesnaz...')
+#10 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/index.php(17): require('/Users/raeesnaz...')
+#11 {main}
+  thrown in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/template-parts/header/nav.php on line 60
+[25-Dec-2024 16:32:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/index.php:10
+Stack trace:
+#0 {main}
+  thrown in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/index.php on line 10
+[25-Dec-2024 16:33:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/index.php:10
+Stack trace:
+#0 {main}
+  thrown in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/index.php on line 10

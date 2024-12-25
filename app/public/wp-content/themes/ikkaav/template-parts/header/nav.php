@@ -7,6 +7,11 @@
  * @package Ikkaav
  *
  */
+
+$menu_class = \IKKAAV_THEME\includes\Menus::get_instance();
+$header_menu_id = $menu_class->get_menu_id('ikkaav-header-menu'); // ikkaav-header-menu is the location of the menu in the theme
+
+$header_menus = wp_get_nav_menu_items($header_menu_id);
 ?>
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -50,3 +55,4 @@
     </form>
   </div>
 </nav>
+

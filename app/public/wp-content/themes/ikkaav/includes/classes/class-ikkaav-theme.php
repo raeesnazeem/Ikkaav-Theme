@@ -19,6 +19,9 @@ class IKKAAV_THEME {
         //class for styles and scripts registered
         Assets::get_instance();
 
+        //class for menus registered
+        Menus::get_instance();
+
         // calling the setup_hooks method below
         $this->setup_hooks();
     }
