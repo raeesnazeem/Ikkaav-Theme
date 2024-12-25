@@ -96,6 +96,6 @@ function autoloader( $resource = '' ) {
  * This autoloader function accepts the argument - (a callback function which returns the route to the files of classes and traits).
  *
  */
-//spl_autoload_register( 'IKKAAV_THEME\includes\helpers\autoloader' );
+//spl_autoload_register( 'IKKAAV_THEME\includes\helpers\autoloader' ) below line works too
+spl_autoload_register(__NAMESPACE__ . '\autoloader');
 
-spl_autoload_register([__NAMESPACE__, 'autoloader']);

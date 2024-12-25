@@ -3,3 +3,160 @@
 [15-Dec-2024 10:29:31 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/functions.php on line 15
 [16-Dec-2024 17:31:33 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-includes/class-wpdb.php on line 1982
 [17-Dec-2024 18:28:51 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-includes/class-wpdb.php on line 1982
+[25-Dec-2024 10:38:59 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-includes/class-wpdb.php on line 1982
+[25-Dec-2024 10:39:07 UTC] PHP Fatal error:  Uncaught TypeError: spl_autoload_register(): Argument #1 ($callback) must be a valid callback or null, class "IKKAAV_THEME\includes\helpers" not found in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/includes/helpers/autoloader.php:101
+Stack trace:
+#0 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/includes/helpers/autoloader.php(101): spl_autoload_register(Array)
+#1 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/functions.php(15): require_once('/Users/raeesnaz...')
+#2 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-settings.php(672): include('/Users/raeesnaz...')
+#3 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-config.php(103): require_once('/Users/raeesnaz...')
+#4 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-load.php(50): require_once('/Users/raeesnaz...')
+#5 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-blog-header.php(13): require_once('/Users/raeesnaz...')
+#6 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/index.php(17): require('/Users/raeesnaz...')
+#7 {main}
+  thrown in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/includes/helpers/autoloader.php on line 101
+[25-Dec-2024 10:39:07 UTC] PHP Fatal error:  Uncaught TypeError: spl_autoload_register(): Argument #1 ($callback) must be a valid callback or null, class "IKKAAV_THEME\includes\helpers" not found in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/includes/helpers/autoloader.php:101
+Stack trace:
+#0 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/includes/helpers/autoloader.php(101): spl_autoload_register(Array)
+#1 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/functions.php(15): require_once('/Users/raeesnaz...')
+#2 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-settings.php(672): include('/Users/raeesnaz...')
+#3 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-config.php(103): require_once('/Users/raeesnaz...')
+#4 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-load.php(50): require_once('/Users/raeesnaz...')
+#5 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-blog-header.php(13): require_once('/Users/raeesnaz...')
+#6 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/index.php(17): require('/Users/raeesnaz...')
+#7 {main}
+  thrown in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/includes/helpers/autoloader.php on line 101
+[25-Dec-2024 10:43:47 UTC] PHP Fatal error:  Uncaught TypeError: spl_autoload_register(): Argument #1 ($callback) must be a valid callback or null, array callback must have exactly two members in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/includes/helpers/autoloader.php:101
+Stack trace:
+#0 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/includes/helpers/autoloader.php(101): spl_autoload_register(Array)
+#1 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/functions.php(15): require_once('/Users/raeesnaz...')
+#2 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-settings.php(672): include('/Users/raeesnaz...')
+#3 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-config.php(103): require_once('/Users/raeesnaz...')
+#4 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-load.php(50): require_once('/Users/raeesnaz...')
+#5 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-blog-header.php(13): require_once('/Users/raeesnaz...')
+#6 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/index.php(17): require('/Users/raeesnaz...')
+#7 {main}
+  thrown in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/includes/helpers/autoloader.php on line 101
+[25-Dec-2024 10:43:47 UTC] PHP Fatal error:  Uncaught TypeError: spl_autoload_register(): Argument #1 ($callback) must be a valid callback or null, array callback must have exactly two members in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/includes/helpers/autoloader.php:101
+Stack trace:
+#0 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/includes/helpers/autoloader.php(101): spl_autoload_register(Array)
+#1 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/functions.php(15): require_once('/Users/raeesnaz...')
+#2 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-settings.php(672): include('/Users/raeesnaz...')
+#3 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-config.php(103): require_once('/Users/raeesnaz...')
+#4 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-load.php(50): require_once('/Users/raeesnaz...')
+#5 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-blog-header.php(13): require_once('/Users/raeesnaz...')
+#6 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/index.php(17): require('/Users/raeesnaz...')
+#7 {main}
+  thrown in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/includes/helpers/autoloader.php on line 101
+[25-Dec-2024 10:44:20 UTC] PHP Fatal error:  Uncaught TypeError: spl_autoload_register(): Argument #1 ($callback) must be a valid callback or null, class "IKKAAV_THEME\includes\helpers\helpers" not found in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/includes/helpers/autoloader.php:101
+Stack trace:
+#0 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/includes/helpers/autoloader.php(101): spl_autoload_register(Array)
+#1 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/functions.php(15): require_once('/Users/raeesnaz...')
+#2 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-settings.php(672): include('/Users/raeesnaz...')
+#3 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-config.php(103): require_once('/Users/raeesnaz...')
+#4 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-load.php(50): require_once('/Users/raeesnaz...')
+#5 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-blog-header.php(13): require_once('/Users/raeesnaz...')
+#6 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/index.php(17): require('/Users/raeesnaz...')
+#7 {main}
+  thrown in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/includes/helpers/autoloader.php on line 101
+[25-Dec-2024 10:44:20 UTC] PHP Fatal error:  Uncaught TypeError: spl_autoload_register(): Argument #1 ($callback) must be a valid callback or null, class "IKKAAV_THEME\includes\helpers\helpers" not found in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/includes/helpers/autoloader.php:101
+Stack trace:
+#0 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/includes/helpers/autoloader.php(101): spl_autoload_register(Array)
+#1 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/functions.php(15): require_once('/Users/raeesnaz...')
+#2 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-settings.php(672): include('/Users/raeesnaz...')
+#3 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-config.php(103): require_once('/Users/raeesnaz...')
+#4 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-load.php(50): require_once('/Users/raeesnaz...')
+#5 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-blog-header.php(13): require_once('/Users/raeesnaz...')
+#6 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/index.php(17): require('/Users/raeesnaz...')
+#7 {main}
+  thrown in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/includes/helpers/autoloader.php on line 101
+[25-Dec-2024 10:44:21 UTC] PHP Fatal error:  Uncaught TypeError: spl_autoload_register(): Argument #1 ($callback) must be a valid callback or null, class "IKKAAV_THEME\includes\helpers\helpers" not found in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/includes/helpers/autoloader.php:101
+Stack trace:
+#0 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/includes/helpers/autoloader.php(101): spl_autoload_register(Array)
+#1 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/functions.php(15): require_once('/Users/raeesnaz...')
+#2 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-settings.php(672): include('/Users/raeesnaz...')
+#3 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-config.php(103): require_once('/Users/raeesnaz...')
+#4 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-load.php(50): require_once('/Users/raeesnaz...')
+#5 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-blog-header.php(13): require_once('/Users/raeesnaz...')
+#6 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/index.php(17): require('/Users/raeesnaz...')
+#7 {main}
+  thrown in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/includes/helpers/autoloader.php on line 101
+[25-Dec-2024 10:44:21 UTC] PHP Fatal error:  Uncaught TypeError: spl_autoload_register(): Argument #1 ($callback) must be a valid callback or null, class "IKKAAV_THEME\includes\helpers\helpers" not found in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/includes/helpers/autoloader.php:101
+Stack trace:
+#0 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/includes/helpers/autoloader.php(101): spl_autoload_register(Array)
+#1 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/functions.php(15): require_once('/Users/raeesnaz...')
+#2 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-settings.php(672): include('/Users/raeesnaz...')
+#3 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-config.php(103): require_once('/Users/raeesnaz...')
+#4 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-load.php(50): require_once('/Users/raeesnaz...')
+#5 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-blog-header.php(13): require_once('/Users/raeesnaz...')
+#6 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/index.php(17): require('/Users/raeesnaz...')
+#7 {main}
+  thrown in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/includes/helpers/autoloader.php on line 101
+[25-Dec-2024 10:45:44 UTC] PHP Fatal error:  Uncaught TypeError: spl_autoload_register(): Argument #1 ($callback) must be a valid callback or null, class "IKKAAV_THEME\includes\helpers" not found in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/includes/helpers/autoloader.php:103
+Stack trace:
+#0 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/includes/helpers/autoloader.php(103): spl_autoload_register(Array)
+#1 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/functions.php(15): require_once('/Users/raeesnaz...')
+#2 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-settings.php(672): include('/Users/raeesnaz...')
+#3 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-config.php(103): require_once('/Users/raeesnaz...')
+#4 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-load.php(50): require_once('/Users/raeesnaz...')
+#5 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-blog-header.php(13): require_once('/Users/raeesnaz...')
+#6 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/index.php(17): require('/Users/raeesnaz...')
+#7 {main}
+  thrown in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/includes/helpers/autoloader.php on line 103
+[25-Dec-2024 10:45:44 UTC] PHP Fatal error:  Uncaught TypeError: spl_autoload_register(): Argument #1 ($callback) must be a valid callback or null, class "IKKAAV_THEME\includes\helpers" not found in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/includes/helpers/autoloader.php:103
+Stack trace:
+#0 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/includes/helpers/autoloader.php(103): spl_autoload_register(Array)
+#1 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/functions.php(15): require_once('/Users/raeesnaz...')
+#2 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-settings.php(672): include('/Users/raeesnaz...')
+#3 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-config.php(103): require_once('/Users/raeesnaz...')
+#4 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-load.php(50): require_once('/Users/raeesnaz...')
+#5 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-blog-header.php(13): require_once('/Users/raeesnaz...')
+#6 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/index.php(17): require('/Users/raeesnaz...')
+#7 {main}
+  thrown in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/includes/helpers/autoloader.php on line 103
+[25-Dec-2024 10:45:46 UTC] PHP Fatal error:  Uncaught TypeError: spl_autoload_register(): Argument #1 ($callback) must be a valid callback or null, class "IKKAAV_THEME\includes\helpers" not found in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/includes/helpers/autoloader.php:103
+Stack trace:
+#0 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/includes/helpers/autoloader.php(103): spl_autoload_register(Array)
+#1 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/functions.php(15): require_once('/Users/raeesnaz...')
+#2 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-settings.php(672): include('/Users/raeesnaz...')
+#3 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-config.php(103): require_once('/Users/raeesnaz...')
+#4 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-load.php(50): require_once('/Users/raeesnaz...')
+#5 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-blog-header.php(13): require_once('/Users/raeesnaz...')
+#6 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/index.php(17): require('/Users/raeesnaz...')
+#7 {main}
+  thrown in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/includes/helpers/autoloader.php on line 103
+[25-Dec-2024 10:45:46 UTC] PHP Fatal error:  Uncaught TypeError: spl_autoload_register(): Argument #1 ($callback) must be a valid callback or null, class "IKKAAV_THEME\includes\helpers" not found in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/includes/helpers/autoloader.php:103
+Stack trace:
+#0 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/includes/helpers/autoloader.php(103): spl_autoload_register(Array)
+#1 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/functions.php(15): require_once('/Users/raeesnaz...')
+#2 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-settings.php(672): include('/Users/raeesnaz...')
+#3 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-config.php(103): require_once('/Users/raeesnaz...')
+#4 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-load.php(50): require_once('/Users/raeesnaz...')
+#5 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-blog-header.php(13): require_once('/Users/raeesnaz...')
+#6 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/index.php(17): require('/Users/raeesnaz...')
+#7 {main}
+  thrown in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/includes/helpers/autoloader.php on line 103
+[25-Dec-2024 10:45:47 UTC] PHP Fatal error:  Uncaught TypeError: spl_autoload_register(): Argument #1 ($callback) must be a valid callback or null, class "IKKAAV_THEME\includes\helpers" not found in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/includes/helpers/autoloader.php:103
+Stack trace:
+#0 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/includes/helpers/autoloader.php(103): spl_autoload_register(Array)
+#1 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/functions.php(15): require_once('/Users/raeesnaz...')
+#2 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-settings.php(672): include('/Users/raeesnaz...')
+#3 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-config.php(103): require_once('/Users/raeesnaz...')
+#4 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-load.php(50): require_once('/Users/raeesnaz...')
+#5 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-blog-header.php(13): require_once('/Users/raeesnaz...')
+#6 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/index.php(17): require('/Users/raeesnaz...')
+#7 {main}
+  thrown in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/includes/helpers/autoloader.php on line 103
+[25-Dec-2024 10:45:47 UTC] PHP Fatal error:  Uncaught TypeError: spl_autoload_register(): Argument #1 ($callback) must be a valid callback or null, class "IKKAAV_THEME\includes\helpers" not found in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/includes/helpers/autoloader.php:103
+Stack trace:
+#0 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/includes/helpers/autoloader.php(103): spl_autoload_register(Array)
+#1 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/functions.php(15): require_once('/Users/raeesnaz...')
+#2 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-settings.php(672): include('/Users/raeesnaz...')
+#3 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-config.php(103): require_once('/Users/raeesnaz...')
+#4 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-load.php(50): require_once('/Users/raeesnaz...')
+#5 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-blog-header.php(13): require_once('/Users/raeesnaz...')
+#6 /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/index.php(17): require('/Users/raeesnaz...')
+#7 {main}
+  thrown in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/includes/helpers/autoloader.php on line 103
+[25-Dec-2024 10:52:12 UTC] PHP Warning:  Undefined variable $path in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/includes/classes/class-ikkaav-theme.php on line 19
+[25-Dec-2024 10:52:12 UTC] PHP Warning:  Undefined variable $path in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/includes/classes/class-ikkaav-theme.php on line 19
