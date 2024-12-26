@@ -328,3 +328,25 @@ Stack trace:
 Stack trace:
 #0 {main}
   thrown in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/index.php on line 10
+[26-Dec-2024 15:14:23 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-includes/class-wpdb.php on line 1982
+[26-Dec-2024 15:16:16 UTC] PHP Warning:  Undefined array key "ikkaav-header-menu" in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/includes/classes/class-menus.php on line 46
+[26-Dec-2024 15:16:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/index.php:10
+Stack trace:
+#0 {main}
+  thrown in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/index.php on line 10
+[26-Dec-2024 15:37:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/index.php:10
+Stack trace:
+#0 {main}
+  thrown in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/index.php on line 10
+[26-Dec-2024 16:15:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/index.php:10
+Stack trace:
+#0 {main}
+  thrown in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/index.php on line 10
+[26-Dec-2024 16:21:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/index.php:10
+Stack trace:
+#0 {main}
+  thrown in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/index.php on line 10
+[26-Dec-2024 16:56:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/index.php:10
+Stack trace:
+#0 {main}
+  thrown in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/index.php on line 10
