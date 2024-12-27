@@ -570,3 +570,8 @@ Stack trace:
 Stack trace:
 #0 {main}
   thrown in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/index.php on line 10
+[27-Dec-2024 17:49:37 UTC] PHP Parse error:  Unmatched '}' in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/index.php on line 24
+[27-Dec-2024 17:50:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/index.php:10
+Stack trace:
+#0 {main}
+  thrown in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/index.php on line 10
