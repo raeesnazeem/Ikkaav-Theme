@@ -50,21 +50,22 @@ $header_menus = wp_get_nav_menu_items($header_menu_id);
                         <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="<?php echo esc_url($menu_item->url); ?>" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <?php echo esc_html__($menu_item->title);?>
+
                         </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                           <?php
-                                foreach($child_menu_items as $child_menu_item) {
-                                    ?>
-                                    <a class="dropdown-item" href="<?php echo esc_url($child_menu_item->url); ?>">
-                                        <?php echo esc_html__($child_menu_item->title);
-                                }
-                           ?>
-                        </div>
-                    </li>
-            </ul> <?php
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                               <?php
+                                    foreach($child_menu_items as $child_menu_item) {
+                                        ?>
+                                        <a class="dropdown-item" href="<?php echo esc_url($child_menu_item->url); ?>">
+                                            <?php echo esc_html__($child_menu_item->title);
+                                    } ?></a>
+                            </div>
+                        </li>
+
+             <?php
                     }
                    }
-                }
+                } ?></ul> <?php
                 }
 
       ?>
