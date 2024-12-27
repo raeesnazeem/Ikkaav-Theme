@@ -11,7 +11,11 @@ get_header();
 
 ?>
 
-<div class="content">content</div>
+<div class="content">
+    <?php
+    esc_html_e('Blog Content', 'ikkaav');
+    ?>
+</div>
 
 
 <?php

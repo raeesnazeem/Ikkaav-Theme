@@ -469,3 +469,104 @@ Stack trace:
 Stack trace:
 #0 {main}
   thrown in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/index.php on line 10
+[27-Dec-2024 16:42:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/index.php:10
+Stack trace:
+#0 {main}
+  thrown in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/index.php on line 10
+[27-Dec-2024 16:42:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/index.php:10
+Stack trace:
+#0 {main}
+  thrown in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/index.php on line 10
+[27-Dec-2024 16:43:12 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-includes/class-wp-customize-widgets.php on line 923
+[27-Dec-2024 16:43:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/index.php:10
+Stack trace:
+#0 {main}
+  thrown in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/index.php on line 10
+[27-Dec-2024 16:43:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/index.php:10
+Stack trace:
+#0 {main}
+  thrown in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/index.php on line 10
+[27-Dec-2024 16:43:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/index.php:10
+Stack trace:
+#0 {main}
+  thrown in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/index.php on line 10
+[27-Dec-2024 16:43:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/index.php:10
+Stack trace:
+#0 {main}
+  thrown in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/index.php on line 10
+[27-Dec-2024 16:43:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/index.php:10
+Stack trace:
+#0 {main}
+  thrown in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/index.php on line 10
+[27-Dec-2024 16:43:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/index.php:10
+Stack trace:
+#0 {main}
+  thrown in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/index.php on line 10
+[27-Dec-2024 16:43:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/index.php:10
+Stack trace:
+#0 {main}
+  thrown in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/index.php on line 10
+[27-Dec-2024 16:44:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/index.php:10
+Stack trace:
+#0 {main}
+  thrown in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/index.php on line 10
+[27-Dec-2024 16:44:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/index.php:10
+Stack trace:
+#0 {main}
+  thrown in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/index.php on line 10
+[27-Dec-2024 16:44:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/index.php:10
+Stack trace:
+#0 {main}
+  thrown in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/index.php on line 10
+[27-Dec-2024 17:29:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/index.php:10
+Stack trace:
+#0 {main}
+  thrown in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/index.php on line 10
+[27-Dec-2024 17:29:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/index.php:10
+Stack trace:
+#0 {main}
+  thrown in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/index.php on line 10
+[27-Dec-2024 17:29:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/index.php:10
+Stack trace:
+#0 {main}
+  thrown in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/index.php on line 10
+[27-Dec-2024 17:29:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/index.php:10
+Stack trace:
+#0 {main}
+  thrown in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/index.php on line 10
+[27-Dec-2024 17:34:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/index.php:10
+Stack trace:
+#0 {main}
+  thrown in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/index.php on line 10
+[27-Dec-2024 17:34:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/index.php:10
+Stack trace:
+#0 {main}
+  thrown in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/index.php on line 10
+[27-Dec-2024 17:34:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/index.php:10
+Stack trace:
+#0 {main}
+  thrown in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/index.php on line 10
+[27-Dec-2024 17:34:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/index.php:10
+Stack trace:
+#0 {main}
+  thrown in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/index.php on line 10
+[27-Dec-2024 17:34:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/index.php:10
+Stack trace:
+#0 {main}
+  thrown in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/index.php on line 10
+[27-Dec-2024 17:34:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/index.php:10
+Stack trace:
+#0 {main}
+  thrown in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/index.php on line 10
+[27-Dec-2024 17:34:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/index.php:10
+Stack trace:
+#0 {main}
+  thrown in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/index.php on line 10
+[27-Dec-2024 17:34:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/index.php:10
+Stack trace:
+#0 {main}
+  thrown in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/index.php on line 10
+[27-Dec-2024 17:34:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/index.php:10
+Stack trace:
+#0 {main}
+  thrown in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/index.php on line 10
