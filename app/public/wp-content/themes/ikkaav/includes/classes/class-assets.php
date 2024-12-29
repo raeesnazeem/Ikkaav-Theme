@@ -33,7 +33,7 @@ class Assets
     public function register_styles()
     {
         //Register Styles to enqueue it
-        wp_register_style('styles-css', IKKAAV_DIR_URI, [], filemtime(IKKAAV_DIR_PATH . '/style.css'), 'all');
+        wp_register_style('styles-css', IKKAAV_DIR_URI . '/style.css', [], filemtime(IKKAAV_DIR_PATH . '/style.css'), 'all');
         wp_register_style('bootstrap-css', IKKAAV_DIR_URI . '/assets/src/library/css/bootstrap.min.css', [], false, 'all');
 
         //Enqueue Styles

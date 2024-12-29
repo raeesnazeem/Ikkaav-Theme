@@ -12,7 +12,7 @@ if ( ! defined( 'IKKAAV_DIR_PATH' ) ) {
 }
 
 
-if ( ! defined( 'URI' ) ) {
+if ( ! defined( 'IKKAAV_DIR_URI' ) ) {
     define( 'IKKAAV_DIR_URI', untrailingslashit( get_template_directory_uri() ) );
 }
 

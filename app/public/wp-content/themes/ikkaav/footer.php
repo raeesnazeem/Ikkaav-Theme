@@ -9,11 +9,16 @@
 
 ?>
 
-<footer>Footer</footer>
+<footer>
+    <div class="container">
+        This is footer content
+        <?php wp_footer(); ?>
+    </div>
+</footer>
 
 </div>
 </div>
 
-<?php wp_footer(); ?>
+
 </body>
 </html>

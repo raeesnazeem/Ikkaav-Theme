@@ -1,6 +1,6 @@
 <?php
 /**
- *Page Template
+ *Single Page Template
  *
  * @package Ikkaav
  *
