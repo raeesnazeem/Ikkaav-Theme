@@ -13,4 +13,5 @@ Tags: raees-theme, elegant
 
 body{
     background-color:#fcfcfc;
+    box-sizing: border-box;
 }
