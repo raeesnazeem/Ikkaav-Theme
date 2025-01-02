@@ -28,15 +28,13 @@ get_header();
                         // Start the loop
                         while (have_posts()) : the_post(); ?>
                             <div class="col-lg-<?php echo intval(12 / $no_of_columns); ?> col-md-6 col-sm-12 mb-4">
-                                <!-- Content of a single post -->
-                                <img src="<?php the_post_thumbnail_url(); ?>" alt="<?php the_title(); ?>" class="img-fluid">
-                                <h3><?php the_title(); ?></h3>
-                                <p><?php the_excerpt(); ?></p>
-                            </div>
+                                <?php get_template_part('template-parts/content'); ?>
                         <?php endwhile; ?>
                     </div> <!-- row end -->
                 </div> <!-- container end -->
-            <?php endif; // have_posts() ?>
+            <?php else :
+                get_template_part('template-parts/content-none');
+             endif; // have_posts() ?>
         </main>
     </div> <!-- primary end -->
 
