@@ -1,6 +1,6 @@
 <?php
 
-function get_the_custom_post_thumbnail($post_id, $size = 'post-thumbnail', $additional_attributes = [])
+function get_the_custom_post_thumbnail($post_id, $size = 'featured-image', $additional_attributes = [])
 {
     $custom_thumbnail = '';
 
