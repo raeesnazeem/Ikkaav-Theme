@@ -873,3 +873,4 @@ Stack trace:
 [02-Jan-2025 16:28:43 UTC] PHP Parse error:  syntax error, unexpected token "endif" in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/index.php on line 36
 [02-Jan-2025 16:32:50 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/index.php on line 63
 [02-Jan-2025 16:32:51 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting "elseif" or "else" or "endif" in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-content/themes/ikkaav/index.php on line 63
+[03-Jan-2025 12:58:28 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /Users/raeesnazeem/Local Sites/ikkaav-theme/app/public/wp-includes/class-wpdb.php on line 1982
