@@ -28,17 +28,12 @@ get_ikkaav_theme_instance();
 
 function ikkaav_enqueue_scripts(){
 
+//why is this empty? is this a new commit?
+    wp_register_style('style-css', get_stylesheet_uri());
+    wp_enqueue_style('style-css');
 
-
-//why is this empty?
-
-
-
-
-
-
-
-
+    wp_register_script('main-js', get_template_directory_uri() . '/assets/js/main.js', [], filemtime(get_template_directory() . '/assets/js/main.js'), true);
+    wp_enqueue_script('main-js');
 
 }
 
