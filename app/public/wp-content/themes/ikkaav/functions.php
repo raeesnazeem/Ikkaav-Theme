@@ -21,6 +21,7 @@ require_once IKKAAV_DIR_PATH . '/includes/helpers/autoloader.php';
 
 
 function get_ikkaav_theme_instance() {
+    //this will get an instance of the main class
     \IKKAAV_THEME\includes\IKKAAV_THEME::get_instance();
 }
 
